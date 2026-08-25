@@ -246,6 +246,46 @@ body{background:var(--bg);min-height:100vh}
   body{background:#fff}
   .topbar-cta,.cta-primary{display:none}
 }
+
+/* ── proof-led concept cards ────────────────────────────────────── */
+.scale-label{display:block;font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;
+  letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:6px}
+.prec{margin-top:0.85rem;padding:0.95rem 1rem 0.85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg)}
+.prec-label{font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;
+  text-transform:uppercase;color:var(--txt3);margin-bottom:0.7rem}
+.prec-spec{margin:0 0 0.9rem;display:grid;grid-template-columns:auto 1fr;gap:0.35rem 0.9rem}
+.prec-spec dt{font-family:'Oswald',sans-serif;font-size:10.5px;font-weight:500;letter-spacing:0.07em;
+  text-transform:uppercase;color:var(--txt3);white-space:nowrap;padding-top:2px}
+.prec-spec dd{margin:0;font-size:13px;color:var(--txt2);line-height:1.6}
+.proj-video-embed{position:relative;width:100%;aspect-ratio:16/9;background:#141414;
+  border-radius:8px;overflow:hidden;margin-bottom:0.85rem}
+.proj-video-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;display:block}
+.video-facade{cursor:pointer}
+.vf-thumb{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block}
+.vf-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:58px;height:40px;
+  border-radius:9px;background:rgba(20,20,20,0.82);display:block}
+.vf-play:after{content:"";position:absolute;top:50%;left:52%;transform:translate(-50%,-50%);
+  border-style:solid;border-width:8px 0 8px 14px;border-color:transparent transparent transparent #fff}
+.video-facade:hover .vf-play{background:var(--o)}
+.vf-title{position:absolute;left:0;right:0;bottom:0;padding:0.5rem 0.7rem;font-size:11px;
+  font-family:'Oswald',sans-serif;letter-spacing:0.05em;text-transform:uppercase;color:#fff;
+  background:linear-gradient(to top,rgba(0,0,0,0.78),rgba(0,0,0,0))}
+.stat-strip-sm{margin:0 0 0.75rem!important}
+.stat-strip-sm .stat-num{font-size:26px}
+.stat-strip-sm .stat-cell{padding:0.65rem 0.5rem}
+.prec-note{margin:0;font-size:12px;color:var(--txt3);line-height:1.65}
+.prec-note a{color:var(--o);text-decoration:none;border-bottom:1px solid rgba(232,90,12,0.35)}
+.apply{margin-top:1rem;padding-left:0.95rem;border-left:2px solid var(--o)}
+.apply-label{font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;
+  text-transform:uppercase;color:var(--o);margin-bottom:0.42rem}
+.apply p{margin:0 0 0.45rem;font-size:13.5px;color:var(--txt2);line-height:1.7}
+.apply p:last-child{margin-bottom:0}
+.apply-names{font-size:12.5px!important;color:var(--txt3)!important}
+.apply-names strong{color:var(--txt);font-weight:500}
+@media(max-width:640px){.prec-spec{grid-template-columns:1fr;gap:0.15rem}
+  .prec-spec dt{padding-top:6px}}
+
 </style>
 </head>
 <body>
@@ -510,7 +550,7 @@ body{background:var(--bg);min-height:100vh}
       <span class="section-eyebrow">Three Concepts For SIMA Funds</span>
     </div>
     <h2 class="section-title">Three Opportunities to Grow Your Audience</h2>
-    <p class="section-subtitle">One flagship series, one short taco drama, and one fast way to use the footage you already have. We film and produce at every level, so where you start is up to you.</p>
+    <p class="section-subtitle">One flagship documentary series and one shorter format. Each one names the format, the show it borrows from, and a company that has already made it work. We film and produce at every level, so where you start is up to you.</p>
   </div>
 
   <div class="ideas-grid">
@@ -518,9 +558,10 @@ body{background:var(--bg);min-height:100vh}
     <div class="idea-card idea-card-featured">
       <div class="idea-num">01</div>
       <div class="idea-body">
-        <div style="display:block;font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:6px">Long-Form Episodic · Flagship, ongoing</div>
-        <div class="idea-title">"Where the Money Lands"</div>
-        <div class="idea-desc">In Ndola, Zambia, load shedding kept cutting the power, so Sharon Daka expanded her company, Kawaida Energy, into water purification alongside its solar work. Her story sits on your website today as a Female Founders Spotlight, alongside fourteen impact stories like it. Altech Group in the DRC, Solektra in Rwanda, and Lanforce Energy, founded by Judith Marera, are three more. Every one of these companies needed capital to grow, and this series tells the story of how that capital changed the lives it reached.<br/><br/><em>Where the Money Lands</em> is a documentary series that tells the story of one SIMA portfolio company per episode. The founder tells the story in their own words. The SIMA investment officer who ran the deal acts as the audience's guide, explaining what was really at stake and how the call got made. Each episode starts with the founder and ends where the capital lands, on a rooftop, in a shop, inside a household, in one of the 25 countries your funds reach.<br/><br/><em>Parts Unknown (the CNN series where Anthony Bourdain lands in an unfamiliar place and lets the people who live there tell its story)</em> made millions of people care about places they will never visit. Parts Unknown did that by going to those places instead of describing them from a studio. Going there is the part <em>Where the Money Lands</em> borrows. What it adds is a main character, the founder, and someone to walk the audience through the decision, the investment officer who made it. The result puts SIMA in the room as the unsung hero. The series takes the first heading on your homepage, "Maximizing Positive Change," and turns it into something an investor can watch, one company at a time.</div>
+        <div class="scale-label">Long-Form Episodic &middot; Flagship, ongoing</div>
+        <div class="idea-title">A returning documentary series</div>
+        <div class="prec"><div class="prec-label">The format, and a company that has already run it</div><dl class="prec-spec"><dt>Format</dt><dd>Docuseries. One founder an episode, telling their own story in their own words, with the company that backed them staying off camera.</dd><dt>Entertainment reference</dt><dd><em>Parts Unknown</em> (the CNN series where Anthony Bourdain lands in an unfamiliar place and lets the people who live there tell its story)</dd><dt>A company that did it</dt><dd>Mailchimp, <em>Second Act</em>, made with Vice. Five episodes, each following one person who left a job to build something: a thirty-year corporate career traded for a pizzeria, two sisters opening a barbecue restaurant, a postal worker who became a master violin maker.</dd><dt>Episode length</dt><dd>7 minutes 17 seconds for the most watched episode</dd></dl><div class="proj-video-embed video-facade" data-yt="pPdAiYeq7K4" role="button" tabindex="0" aria-label="Play video: Second Act, Black People Will Swim"><img class="vf-thumb" src="https://i.ytimg.com/vi/pPdAiYeq7K4/hqdefault.jpg" alt="" onerror="this.style.display='none'"><span class="vf-play" aria-hidden="true"></span><span class="vf-title">Black People Will Swim &middot; Second Act</span></div><div class="stat-strip stat-strip-sm"><div class="stat-cell"><div class="stat-num">129,208</div><div class="stat-label">Views, Top Episode</div></div><div class="stat-cell"><div class="stat-num">5</div><div class="stat-label">Episodes In Season One</div></div><div class="stat-cell"><div class="stat-num">2</div><div class="stat-label">Seasons Made</div></div></div><p class="prec-note">Mailchimp sells software to exactly the kind of people in these episodes and never says so on camera. Mailchimp commissioned the series and Vice produced it, so the episodes run on Vice's channel rather than the brand's. Runtime and view count read from YouTube on 24 August 2026. <a href="https://www.youtube.com/watch?v=pPdAiYeq7K4" target="_blank" rel="noopener">Watch the episode</a></p></div>
+        <div class="apply"><div class="apply-label">How SIMA Funds could use it</div><p>One portfolio company an episode is told by the founder in their own words. The SIMA investment officer who ran the deal explains what was at stake and how the call got made. Each episode ends where the capital actually landed, in one of the 25 countries your funds reach.</p><p class="apply-names">Possible names: <strong>Where the Money Lands</strong>, <strong>On the Ground</strong>, <strong>One Company At A Time</strong></p></div>
         <div class="why-block">
           <div class="why-label">Why long-form episodic wins over time</div>
           <div class="why-list">
@@ -535,32 +576,16 @@ body{background:var(--bg);min-height:100vh}
     <div class="idea-card">
       <div class="idea-num">02</div>
       <div class="idea-body">
-        <div style="display:block;font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:6px">Short-Form Episodic · The Taco Drama</div>
-        <div class="idea-title">"Business Hours"</div>
-        <div class="idea-desc">It is 4:55 on a Thursday afternoon in New York, which makes it almost midnight in Kenya and nearly two in the morning in Pakistan. Somebody has booked the all-hands for this exact hour and described it in the invite as a time that works for everyone. Four people join the call, and three of them are sitting in the dark.<br/><br/>A <em>'Taco Drama'</em> is a short scripted series designed to be easy to consume on the go. <em>Business Hours</em> is a workplace comedy about one team spread across New York, Kenya, Pakistan and India. Your careers page says over 95% of your staff work in Sub-Saharan Africa and South Asia. The address on your contact page is on Columbus Avenue, so the New York afternoon is already night for most of the team. Episodes run a minute or two, shot vertical for phones and widescreen for YouTube and your website. The comedy always comes from the clock, never from the investing work.<br/><br/>The cast is a fixed four. Elena schedules everything from New York and does the time-zone math out loud, with total confidence. Rizwan joins every late-night call from Pakistan in a pressed shirt and will not admit he was asleep. Amina, in Kenya, has the most reliable internet of anyone on the team, and mentions it in every single meeting. And Devika owns the shared calendar from India and treats a double booking as a personal insult.<br/><br/>Every episode starts with a new scheduling problem. One week a meeting is booked at an hour that works in only one place. The next, a clock change in New York quietly moves every standing call. After that, a holiday only one of the four takes off interrupts the schedule. Everyone shows up anyway, and the meeting goes sideways for a reason nobody planned for. By the next morning, whichever morning that turns out to be, the calendar is clear and someone has already booked another meeting. <em>Parks and Recreation (the comedy about a small government office where the team cares far more about the work than anyone around them does)</em> made an audience love people for taking unglamorous work seriously. <em>The Office (the sitcom that found nine seasons of story in one ordinary workplace)</em> made millions of people care about a small cast at their desks. Anyone who has joined a call at the wrong hour gets a laugh at a workday they have lived through. Everyone else gets to meet the people who do the work, in the countries where most of it actually happens.</div>
+        <div class="scale-label">Short-Form Episodic &middot; Scripted comedy, 3 to 5 minutes</div>
+        <div class="idea-title">A scripted workplace comedy</div>
+        <div class="prec"><div class="prec-label">The format, and a company that has already run it</div><dl class="prec-spec"><dt>Format</dt><dd>Sitcom. A fixed cast in one workplace, one problem an episode, resolved by the end of it.</dd><dt>Entertainment reference</dt><dd><em>Abbott Elementary</em> (the comedy set in a Philadelphia public school) and <em>Superstore</em> (the sitcom where a store's staff face one absurd situation a week and everything resets by the next episode)</dd><dt>A company that did it</dt><dd>Adobe, <em>The Marketers</em>. A software company made a scripted comedy about the working day of the people it sells to, with Hasan Minhaj and Patty Guggenheim, written with Saturday Night Live talent and released weekly under its own name.</dd><dt>Episode length</dt><dd>4 minutes 18 seconds for the most watched episode</dd></dl><div class="proj-video-embed video-facade" data-yt="c684LbSSCGk" role="button" tabindex="0" aria-label="Play video: The Marketers, Adobe Acrobat"><img class="vf-thumb" src="https://i.ytimg.com/vi/c684LbSSCGk/hqdefault.jpg" alt="" onerror="this.style.display='none'"><span class="vf-play" aria-hidden="true"></span><span class="vf-title">Pitching The Next Great Campaign &middot; The Marketers</span></div><div class="stat-strip stat-strip-sm"><div class="stat-cell"><div class="stat-num">22,984,213</div><div class="stat-label">Views, One Episode</div></div><div class="stat-cell"><div class="stat-num">4m18s</div><div class="stat-label">Episode Length</div></div><div class="stat-cell"><div class="stat-num">2</div><div class="stat-label">Seasons Made</div></div></div><p class="prec-note">Adobe sells software to businesses, and one episode of its comedy has been watched almost 23 million times. The series ran weekly and returned for a second season. Runtime and view count read from YouTube on 24 August 2026. <a href="https://www.youtube.com/watch?v=c684LbSSCGk" target="_blank" rel="noopener">Watch the episode</a></p></div>
+        <div class="apply"><div class="apply-label">How SIMA Funds could use it</div><p>The same format follows one team spread across New York, Kenya, Pakistan and India. Over 95% of your staff sit outside the New York office. Every episode starts with a new scheduling problem, and the comedy always comes from the clock rather than the investing work. Episodes run a minute or two rather than twenty.</p><p class="apply-names">Possible names: <strong>Business Hours</strong>, <strong>Almost Midnight</strong>, <strong>The Shared Calendar</strong></p></div>
         <div class="why-block">
           <div class="why-label">Why short-form drama is worth the bet</div>
           <div class="why-list">
             <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span><span><strong>Entertainment is value given first.</strong> Nobody passes around a fund fact sheet, but people share a ninety-second comedy that made them laugh.</span></div>
             <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span><span>Micro-drama is already an <strong>$11 billion market in 2025</strong>, headed to about $14 billion by the end of this year (Omdia).</span></div>
             <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></span><span><strong>The format produces a fresh conflict every episode.</strong> Four time zones and one shared calendar make sure the schedule never lines up.</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="idea-card">
-      <div class="idea-num">03</div>
-      <div class="idea-body">
-        <div style="display:block;font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:6px">From Footage You Already Have · fast</div>
-        <div class="idea-title">"58 Videos, Cut For LinkedIn"</div>
-        <div class="idea-desc">Samit Ghosh, who founded Ujjivan, sat down for fifty minutes for your Pioneers of Impact Investing series. That interview lives on your YouTube channel right now, inside a library of 58 videos. Three series make up the interviews. The <em>Interview Series with Pioneers of Impact Investing</em> is the first, and its latest episode is Nestor Oller of the Netri Foundation. The <em>SIMA Impact Chronicles</em> conversations with portfolio founders like Yariv Cohen of Ignite Power and Ted Miller of BURN Manufacturing are the second, and the thirteen <em>From Founders to Flourishers</em> testimonials are the third.<br/><br/>This concept is built from footage you already own: twenty-three founder and executive interviews, running 15 to 66 minutes each, recut into short vertical clips for LinkedIn, where 18,850 people already follow you. Each clip is one person answering a single question in about a minute. One long interview becomes three or four short clips, and the thirteen testimonials become weeks of posts.<br/><br/>An investor between meetings scrolls past a minute of Anish Thakkar of Sun King answering one question, and taps through to the full conversation. A founder who is deciding where to look for capital gets a real sense of who you back from the founders you have already backed, before anyone ever books a call.</div>
-        <div class="why-block">
-          <div class="why-label">Why this is the fastest place to start</div>
-          <div class="why-list">
-            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg></span><span><strong>The footage already exists.</strong> 58 videos are on your channel today, so there is no shoot to schedule.</span></div>
-            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></span><span><strong>Value given first.</strong> An investor weighing whether the impact is real gets answers from portfolio founders before anyone asks for a meeting.</span></div>
-            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></span><span><strong>One long video becomes several short ones</strong>: single-question answers cut from the <em>Pioneers</em> interviews, and vertical testimonial clips from the From Founders to Flourishers series.</span></div>
           </div>
         </div>
       </div>
@@ -758,6 +783,10 @@ body{background:var(--bg);min-height:100vh}
     <div class="faq-a">We start with the community, not the camera. Before any production decision, we map who you're speaking to, what they need from you, and what shift we're trying to produce in them. Format and craft follow from there.</div>
   </div>
   <div class="faq-item">
+    <div class="faq-q">Do you only work with certain industries?</div>
+    <div class="faq-a">At Talex, we don’t limit our focus to one vertical or industry, because industry-specific thinking leads to uniform outputs and our goal is to help our clients stand out from their competition.<br><br>Ultimately, a cross-disciplinary perspective forces innovation and creates more original ideas. Because we are not tied to the conventions of one industry, we can do a better job of helping you create content authentic to your brand and valuable to your audience. So you stand out and remain top of mind for your customers.</div>
+  </div>
+  <div class="faq-item">
     <div class="faq-q">We already have a marketing team. Why should we work with Talex?</div>
     <div class="faq-a">Perfect, that's actually how we prefer to work. Talex Media isn't a marketing agency. We're a video production company in the documentary and broadcast tradition. A strong marketing team brings audience clarity, channel strategy, and distribution. We bring the films that give them something worth distributing: customer hero pieces, episodic series, founder content built to a broadcast standard.</div>
   </div>
@@ -784,15 +813,51 @@ window.addEventListener("load", function(){
 });
 </script>
 
+
+
+<script>
+(function(){
+  function load(el){
+    if(el.getAttribute("data-loaded")) return;
+    var id = el.getAttribute("data-yt");
+    var f = document.createElement("iframe");
+    f.setAttribute("src","https://www.youtube-nocookie.com/embed/"+id+"?autoplay=1&rel=0");
+    f.setAttribute("title","Video player");
+    f.setAttribute("allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+    f.setAttribute("allowfullscreen","");
+    el.innerHTML = ""; el.appendChild(f); el.setAttribute("data-loaded","1");
+  }
+  document.querySelectorAll(".video-facade").forEach(function(el){
+    el.addEventListener("click", function(){ load(el); });
+    el.addEventListener("keydown", function(ev){
+      if(ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); load(el); }
+    });
+  });
+})();
+</script>
 <script id="tm-edit-js">
 
 (function(){
-  var DOC_KEY = 'sima-funds-f3b07e1e';
-  var LOCAL_KEY = 'talex-edit:' + DOC_KEY;
+  var DOC_KEY = 'sima-funds-v2-17f6d0f7';
+  var BUILD_ID = 'c911d2276f46';
+  // The browser-local draft is keyed to the BUILD, not just the doc. When a doc is
+  // rebuilt and redeployed under the same doc key, an old localStorage draft would
+  // otherwise repaint itself over the new page a moment after load, which looks
+  // exactly like the deploy having failed. Keying on the build makes a stale draft
+  // unreachable, and any draft from a previous build is cleared on load.
+  var LOCAL_KEY = 'talex-edit:' + DOC_KEY + ':' + BUILD_ID;
+  try {
+    for (var i = localStorage.length - 1; i >= 0; i--) {
+      var k = localStorage.key(i);
+      if (k && k.indexOf('talex-edit:' + DOC_KEY) === 0 && k !== LOCAL_KEY) {
+        localStorage.removeItem(k);
+      }
+    }
+  } catch(e){}
   // Carousel decks (tools/deck-unbundle.mjs) carry their text in inline-styled
   // spans inside .slide sections, so the tag list below would miss most of a
   // deck. Scoped to .slide so a bare span stays uneditable in strategy docs.
-  var EDIT_SEL = '.slide span, .slide em, p, li, h1, h2, h3, h4, .idea-title, .idea-desc, .idea-tag, .why-label, .why-item, .stat-num, .stat-label, .channel-name, .channel-handle, .channel-snippet, .cs-section-label, .cs-section-body, .cs-stat-num, .cs-stat-label, .cs-name, .cs-footer-meta, .cred-chip, .faq-q, .faq-a, .cta-eyebrow, .cta-headline, .cta-sub, .cta-reply, .callout p, .callout-attr, .hero-eyebrow, .hero-title, .hero-tagline, .section-title, .section-subtitle';
+  var EDIT_SEL = '.scale-label, .prec-spec dd, .apply-label, .slide span, .slide em, p, li, h1, h2, h3, h4, .idea-title, .idea-desc, .idea-tag, .why-label, .why-item, .stat-num, .stat-label, .channel-name, .channel-handle, .channel-snippet, .cs-section-label, .cs-section-body, .cs-stat-num, .cs-stat-label, .cs-name, .cs-footer-meta, .cred-chip, .faq-q, .faq-a, .cta-eyebrow, .cta-headline, .cta-sub, .cta-reply, .callout p, .callout-attr, .hero-eyebrow, .hero-title, .hero-tagline, .section-title, .section-subtitle';
   var wrap = document.querySelector('#wrap');
   var statusEl = document.getElementById('tm-status');
   var saveTimer = null;
@@ -816,6 +881,24 @@ window.addEventListener("load", function(){
       el.setAttribute('contenteditable', 'true');
       el.setAttribute('data-tmedit', '1');
       el.classList.add('tm-edit');
+      // Paste as plain text. Pasting from Google Docs or Word otherwise carries
+      // inline font-family/color styles that beat the page CSS and, on dark
+      // blocks, render black text on a dark background.
+      el.addEventListener('paste', function(ev){
+        ev.preventDefault();
+        var cb = ev.clipboardData || window.clipboardData;
+        var txt = cb ? cb.getData('text/plain') : '';
+        if(!txt) return;
+        if(document.queryCommandSupported && document.queryCommandSupported('insertText')){
+          document.execCommand('insertText', false, txt);
+        } else {
+          var sel = window.getSelection();
+          if(!sel || !sel.rangeCount) return;
+          sel.deleteFromDocument();
+          sel.getRangeAt(0).insertNode(document.createTextNode(txt));
+          sel.collapseToEnd();
+        }
+      });
     });
     wrap.querySelectorAll('.idea-card').forEach(function(card){
       if(card.querySelector('.tm-chip')) return;
@@ -855,7 +938,7 @@ window.addEventListener("load", function(){
     return fetch(DB_URL + '/drafts/' + DOC_KEY + '.json', {
       method: 'PUT',
       headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify(html)
+      body: JSON.stringify({html: html, build: BUILD_ID})
     }).then(function(r){ if(!r.ok) throw new Error('http ' + r.status); });
   }
   function resetDraft(){
@@ -876,6 +959,20 @@ window.addEventListener("load", function(){
     .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
     .then(function(v){
       clearTimeout(t);
+      // A draft saved against an older build must NOT be restored: it would
+      // silently paint the previous version over newer content and the reader
+      // would never know the page had moved on. Legacy drafts saved as a bare
+      // string carry no build id, so those still restore as before.
+      if(v && typeof v === 'object' && v.html){
+        if(v.build && v.build !== BUILD_ID){
+          done = true;
+          initEdit();
+          setStatus('This page was updated after your last edit. Your older draft was not applied.', 'warn');
+          return;
+        }
+        finish(v.html);
+        return;
+      }
       finish((typeof v === 'string' && v) ? v : localStorage.getItem(LOCAL_KEY));
     })
     .catch(function(){
@@ -931,7 +1028,7 @@ window.addEventListener("load", function(){
     var blob = new Blob([html], {type:'text/html'});
     var a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = 'sima-funds-strategy-FINAL.html';
+    a.download = 'sima-funds-v2-strategy-FINAL.html';
     document.body.appendChild(a);
     a.click();
     setTimeout(function(){ a.remove(); URL.revokeObjectURL(a.href); }, 500);
